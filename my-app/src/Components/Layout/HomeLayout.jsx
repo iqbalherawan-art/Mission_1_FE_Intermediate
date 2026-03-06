@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../components/organism/Navbar'
-import Footer from '../components/organism/Footer'
-export default function HomeLayouts({ children }) {
+import Navbar from '../Organism/Navbar'
+import Footer from '../Organism/Footer'
+export default function HomeLayout({ children }) {
     return (
         <>
             <Navbar />

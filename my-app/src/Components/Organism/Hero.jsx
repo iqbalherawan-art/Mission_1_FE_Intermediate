@@ -1,5 +1,5 @@
 import React from 'react'
-import '../src/Components/Organism/Style/Header.css'
+import '../../Components/Organism/Style/Header.css'
 
 export default function Hero() {
     return (
