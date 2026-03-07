@@ -1,0 +1,133 @@
+.body {
+  margin-left: 80px;
+}
+.row {
+  margin-top: 80px;
+  justify-content: space-between;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin-bottom: 40px;
+}
+
+.Title_scroll {
+  margin-left: 80;
+  font-size: 32px;
+  font-style: bold;
+  font-weight: 700;
+  letter-spacing: 0%;
+  line-height: 110%;
+}
+.arrow_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(47, 51, 52, 1);
+  border-color: transparent;
+  height: 40px;
+  width: 40px;
+  margin-top: 90px;
+  margin-left: -20px;
+  border-width: 1px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+.arrow_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(47, 51, 52, 1);
+  transform: scaleX(-1);
+  border-color: transparent;
+  height: 40px;
+  width: 40px;
+  margin-left: 87.5%;
+  margin-top: 90px;
+  border-width: 1px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+.arrow_left_vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(47, 51, 52, 1);
+  border-color: transparent;
+  height: 40px;
+  width: 40px;
+  margin-top: 180px;
+  margin-left: -20px;
+  border-width: 1px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+.arrow_right_vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(47, 51, 52, 1);
+  transform: scaleX(-1);
+  border-color: transparent;
+  height: 40px;
+  width: 40px;
+  margin-left: 87.5%;
+  margin-top: 180px;
+  border-width: 1px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+.row_poster_horizontal {
+  object-fit: contain;
+  max-height: 162px;
+  width: 302px;
+  margin-right: 10px;
+}
+.row_poster_vertical {
+  object-fit: contain;
+  max-height: 365px;
+  width: 265px;
+  margin-right: 10px;
+  margin-left: -20px;
+}
+
+.rating_lanjut_film {
+  position: relative;
+}
+
+.judul_dan_rating {
+  max-height: 162px;
+  width: 302px;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  padding: 14px;
+  padding-top: 120px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  overflow-x: hidden;
+}
+.rating {
+  font-weight: 400;
+}
+.Movie_title {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.row_landscape_poster_scroll {
+  display: flex;
+  overflow: hidden;
+  padding-top: 32px;
+  width: 95%;
+}
+.row_potrait_poster_scroll {
+  display: flex;
+  overflow-x: hidden;
+  padding-top: 32px;
+  width: 95%;
+}

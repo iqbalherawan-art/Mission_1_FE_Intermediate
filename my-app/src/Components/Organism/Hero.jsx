@@ -1,5 +1,6 @@
 import React from 'react'
-import '../../Components/Organism/Style/Header.css'
+import '../../Components/Organism/Style/Hero.css'
+import MuteIcon from '../../assets/Images/Mute.png'
 
 export default function Hero() {
     return (
@@ -34,7 +35,7 @@ export default function Hero() {
         </ul>
       </div>
       <button type="button" className="hero-mute">
-        <img src="../Images/Mute.png" />
+        <img src={MuteIcon} alt="Mute" />
       </button>
     </div>
   </section>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/images/logo.png'
+import Logo from '../../assets/Images/Logo.png'
 import '../Organism/Style/Footer.css'
 
 export default function Footer() {
@@ -8,7 +8,7 @@ export default function Footer() {
         <footer>
   <div className="footer-container">
     <div className="footer-column logo-column">
-      <img src="../Images/logo.png" alt="Company Logo" />
+      <img src={Logo} alt="Company Logo" />
       <a className="copyright">@2023 Chill All Rights Reserved.</a>
     </div>
     <div className="footer-column genre-column">

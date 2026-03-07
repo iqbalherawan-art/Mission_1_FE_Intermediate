@@ -1,34 +1,35 @@
 import React from 'react'
-import Logo from '../../assets/images/Avatar.png'
+import Logo from '../../assets/Images/Avatar.png'
+import '../Organism/Style/Header.css'
 
 export default function Navbar() {
     return (
         <>
         <header className="Header">
             <nav>
-                <a href="index.html" />
-    <div className="logoheader" />
-    <div className="nav-links">
-      <ul>
-        <li>
-          <a href="">Series</a>
-        </li>
-        <li>
-          <a href="">Film</a>
-        </li>
-        <li>
-          <a href="">Daftar Saya</a>
-        </li>
-      </ul>
-    </div>
-    <img
-      className="current-account"
-      src="..src/assets/images/Avatar.png"
-      alt=""
-      height="35px"
-    />
-  </nav>
-</header>
+                <a href="index.html"></a>
+                <div className="logoheader" />
+                <div className="nav-links">
+                    <ul>
+                        <li>
+                            <a href="">Series</a>
+                        </li>
+                        <li>
+                            <a href="">Film</a>
+                        </li>
+                        <li>
+                            <a href="">Daftar Saya</a>
+                        </li>
+                    </ul>
+                </div>
+                <img
+                    className="current-account"
+                    src={Logo}
+                    alt="Avatar"
+                    height="35"
+                />
+            </nav>
+        </header>
         </>
     )
 }
