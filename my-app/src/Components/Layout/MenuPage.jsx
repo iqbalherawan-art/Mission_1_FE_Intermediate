@@ -4,6 +4,7 @@ import TopRatingMovies from '../Molecule/TopRatingMovies'
 import TrendingFilm from '../Molecule/TrendingFilm'
 import NewRelease from '../Molecule/NewRelease'
 
+
 export default function MenuPage() {
     return (
         <>
