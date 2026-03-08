@@ -1,6 +1,8 @@
 .Header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   padding-left: 40px;
-  max-height: 100vw;
   width: 100%;
   background-color: rgba(24, 26, 28, 1);
 }

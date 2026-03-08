@@ -1,5 +1,5 @@
 .body {
-  margin-left: 80px;
+  margin-left: 0;
 }
 
 body {
@@ -7,15 +7,16 @@ body {
   color: #fff;
 }
 .row {
-  margin-top: 80px;
-  justify-content: space-between;
+  position: relative;
+  margin-top: 40px;
+  padding: 0 5%;
   overflow-y: hidden;
   overflow-x: hidden;
   margin-bottom: 40px;
 }
 
 .Title_scroll {
-  margin-left: 80;
+  margin-left: 80px;
   font-size: 32px;
   font-style: bold;
   font-weight: 700;
@@ -30,8 +31,8 @@ body {
   border-color: transparent;
   height: 40px;
   width: 40px;
-  margin-top: 90px;
-  margin-left: 20px;
+  top: 90px;
+  left: 20px;
   border-width: 1px;
   border-radius: 50%;
   position: absolute;
@@ -46,8 +47,8 @@ body {
   border-color: transparent;
   height: 40px;
   width: 40px;
-  margin-left: 95%;
-  margin-top: 90px;
+  top: 90px;
+  right: 20px;
   border-width: 1px;
   border-radius: 50%;
   position: absolute;
@@ -61,8 +62,8 @@ body {
   border-color: transparent;
   height: 40px;
   width: 40px;
-  margin-top: 180px;
-  margin-left: 20px;
+  top: 180px;
+  left: 20px;
   border-width: 1px;
   border-radius: 50%;
   position: absolute;
@@ -77,8 +78,8 @@ body {
   border-color: transparent;
   height: 40px;
   width: 40px;
-  margin-left: 95%;
-  margin-top: 180px;
+  top: 180px;
+  right: 20px;
   border-width: 1px;
   border-radius: 50%;
   position: absolute;

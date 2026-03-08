@@ -1,12 +1,12 @@
-@import url("./FontSetting.css");
+/* @import url("./FontSetting.css"); */
 
-body {
-  background-image: url("../Images/Cinema-Seat.jpg");
+.register-page {
+  background-image: url("../assets/Images/Cinema-Seat.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
