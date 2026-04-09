@@ -31,7 +31,7 @@ body {
   border-color: transparent;
   height: 40px;
   width: 40px;
-  top: 90px;
+  top: 120px;
   left: 20px;
   border-width: 1px;
   border-radius: 50%;
@@ -47,7 +47,7 @@ body {
   border-color: transparent;
   height: 40px;
   width: 40px;
-  top: 90px;
+  top: 120px;
   right: 20px;
   border-width: 1px;
   border-radius: 50%;
@@ -62,7 +62,7 @@ body {
   border-color: transparent;
   height: 40px;
   width: 40px;
-  top: 180px;
+  top: 230px;
   left: 20px;
   border-width: 1px;
   border-radius: 50%;
@@ -78,7 +78,7 @@ body {
   border-color: transparent;
   height: 40px;
   width: 40px;
-  top: 180px;
+  top: 230px;
   right: 20px;
   border-width: 1px;
   border-radius: 50%;

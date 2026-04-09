@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../assets/Images/Avatar.png'
+import { Link } from 'react-router-dom'
 import '../Organism/Style/Header.css'
 
 export default function Navbar() {
@@ -19,6 +20,9 @@ export default function Navbar() {
                         </li>
                         <li>
                             <a href="">Daftar Saya</a>
+                        </li>
+                        <li>
+                            <Link to="/admin" style={{ color: '#e50914', fontWeight: 'bold' }}>Admin</Link>
                         </li>
                     </ul>
                 </div>

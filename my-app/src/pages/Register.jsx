@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../Components/Register.css'
 import logo from '../assets/Images/Logo.png'
 import passwordIcon from '../assets/Images/eye-off-icon.png'
@@ -56,7 +57,7 @@ export default function Register() {
               />
               <div className="form-alternative">
                 <p>
-                  Sudah punya akun? <a href="Login.html">Masuk</a>
+                  Sudah punya akun? <Link to="/login">Masuk</Link>
                 </p>
               </div>
             </div>

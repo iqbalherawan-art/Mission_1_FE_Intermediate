@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../Components/Login.css'
 import logo from '../assets/Images/Logo.png'
 import passwordIcon from '../assets/Images/eye-off-icon.png'
@@ -43,7 +44,7 @@ export default function Login() {
             />
             <div className="form-alternative">
               <p>
-                Belum punya akun? <a href="../assets/Images/register.html">Daftar</a>
+                Belum punya akun? <Link to="/register">Daftar</Link>
               </p>
               <a href="#">Lupa kata sandi?</a>
             </div>
